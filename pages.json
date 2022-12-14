@@ -48,6 +48,29 @@
     }
 
   }],
+  "subPackages": [
+    {"root": "subpkg",
+    "pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+    }],
+    
   "globalStyle": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "KUN购",
@@ -58,10 +81,10 @@
   "tabBar": {
     "selectedColor": "#C00000",
     "list": [{
-        "pagePath": "pages/cart/cart",
-        "text": "购物车",
-        "iconPath": "static/tab_icons/cart.png",
-        "selectedIconPath": "static/tab_icons/cart-active.png"
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
       },
       {
         "pagePath": "pages/cate/cate",
@@ -70,10 +93,10 @@
         "selectedIconPath": "static/tab_icons/cate-active.png"
       },
       {
-        "pagePath": "pages/home/home",
-        "text": "首页",
-        "iconPath": "static/tab_icons/home.png",
-        "selectedIconPath": "static/tab_icons/home-active.png"
+      "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tab_icons/cart.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
       },
       {
         "pagePath": "pages/my/my",
